@@ -1,0 +1,29 @@
+* {
+  font-family: arial;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  background-color: lightblue;
+  width: 90%;
+  height: 700px;
+  margin: 0 auto;
+
+  // Flex properties
+  display: flex;
+
+  .item {
+    text-align: center;
+    background-color: lightcoral;
+    font-weight: 700;
+
+    //Flex properties
+
+    &:nth-child(even) {
+      background-color: lightgoldenrodyellow;
+    }
+  }
+}

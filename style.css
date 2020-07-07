@@ -1,0 +1,28 @@
+* {
+  font-family: arial;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  background-color: lightblue;
+  width: 90%;
+  height: 700px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .item {
+  text-align: center;
+  background-color: lightcoral;
+  font-weight: 700;
+}
+
+.container .item:nth-child(even) {
+  background-color: lightgoldenrodyellow;
+}
+/*# sourceMappingURL=style.css.map */
